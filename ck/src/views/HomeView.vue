@@ -1,9 +1,19 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Navbar from '../components/Navbar.vue'
+import Slider from '../components/Slider.vue'
+import About from '../components/About.vue'
+import Whyus from '../components/Whyus.vue'
+import Journey from '../components/Journey.vue'
+import End from '../components/End.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Navbar />
+    <Slider />
+    <About />
+    <Whyus />
+    <Journey />
+    <End />
   </main>
 </template>
