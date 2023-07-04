@@ -101,6 +101,7 @@ import Beone from '@/components/layouts/Beone.vue'
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-6">
                         <div class="section-title">
                             <h4>Testimonials</h4>
@@ -159,6 +160,7 @@ import Beone from '@/components/layouts/Beone.vue'
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
