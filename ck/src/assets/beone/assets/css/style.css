@@ -281,11 +281,11 @@
    /* start owl-carousel */
    .owl-carousel .owl-nav button {
       position: absolute;
-      background: #999 !important;
+      background: black !important;
       color: #ffffff !important;
       border-radius: 2px;
-      height: 30px;
-      width: 30px;
+      height: 60px;
+      width: 50px;
       left: 50px;
       top: 50%;
       text-align: center;
@@ -303,7 +303,7 @@
       right: 50px;
    }
    .owl-carousel .owl-nav button:hover {
-      background: #000 !important;
+      background: #f97316 !important;
    }
 
    .owl-carousel .owl-dots button {
@@ -1035,7 +1035,7 @@
 /* Start Footer Area
 ==================================================*/
 .footer-logo a {
-    font-size: 30px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 900;
     color: #fff;

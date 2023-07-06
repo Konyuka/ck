@@ -12,17 +12,29 @@ import Megakit from '@/components/layouts/Megakit.vue'
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-2 col-md-4">
                             <div class="header-top-socials text-center text-lg-left text-md-left">
-                                <a href="https://www.facebook.com/themefisher" target="_blank"><i
-                                        class="ti-facebook"></i></a>
-                                <a href="https://twitter.com/themefisher" target="_blank"><i class="ti-twitter"></i></a>
-                                <a href="https://www.instagram.com/commercialkitchensconsultants/" target="_blank"><i class="ti-instagram"></i></a>
+                                <a href="https://www.instagram.com/commercialkitchensconsultants/" target="_blank">
+                                    <img class="media-icon" src="@/assets/app/ig.svg" alt="">
+                                </a>
+                                <a href="https://www.instagram.com/commercialkitchensconsultants/" target="_blank">
+                                    <img class="media-icon" src="@/assets/app/fb.svg" alt="">
+                                </a>
+                                <a href="https://www.instagram.com/commercialkitchensconsultants/" target="_blank">
+                                    <img class="media-icon" src="@/assets/app/twitter.svg" alt="">
+                                </a>
+                                <!-- <a href="https://www.instagram.com/commercialkitchensconsultants/" target="_blank">
+                                    <img class="media-icon" src="@/assets/app/linkedin.svg" alt="">
+                                </a> -->
+
                             </div>
                         </div>
                         <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
                             <div class="header-top-info">
-                                <a href="tel:+25471769050">Call Us : <span>+254 717 269 050</span></a>
-                                <a href="mailto:lynnkimeto55@gmail.com"><i
-                                        class="fa fa-envelope mr-2"></i><span>info@commercialkitchen.co.ke</span></a>
+                                <a href="tel:+25471769050">
+                                    <span class="contact-hover">+254 717 269 050</span>
+                                </a>
+                                <a href="mailto:lynnkimeto55@gmail.com">
+                                    <span class="contact-hover">info@commercialkitchen.co.ke</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -69,7 +81,7 @@ import Megakit from '@/components/layouts/Megakit.vue'
                         </ul>
 
                         <form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
-                            <a href="contact.html" class="btn btn-solid-border btn-round-full">Get in Touch</a>
+                            <a href="contact.html" class="button btn btn-solid-border btn-round-full">Get in Touch</a>
                         </form>
                     </div>
                 </div>
@@ -79,4 +91,24 @@ import Megakit from '@/components/layouts/Megakit.vue'
     </Megakit>
 </template>
 
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+.icon-color {
+    color: #f97316;
+}
+
+.button {
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: #f97316;
+}
+.contact-hover:hover {
+    color: #f97316;
+}
+
+.media-icon {
+    height: 25px;
+    width: 25px;
+}
+</style>

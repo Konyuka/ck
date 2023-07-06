@@ -5,7 +5,6 @@ import Startup from '@/components/layouts/Startup.vue'
 
 <template>
   <Startup>
-    <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
 
       <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -15,17 +14,17 @@ import Startup from '@/components/layouts/Startup.vue'
             <img class="w-100" src="@/assets/startup/img/carousel-1.jpg" alt="Image">
             <div
               class="w-100 carousel-height carousel-caption d-flex flex-column align-items-center justify-content-center">
-              <div class="p-3" style="max-width: 800px;">
+              <div class="p-3" style="max-width: 900px;">
                 <h1 class="text-white text-uppercase mb-md-4 animated zoomIn">
-                  From Concept to Completion We Guide You Every Step of the Way
+                  From Concept to Completion We Guide You Every Step of the Wy
                 </h1>
                 <h4 class="text-white mb-3 animated slideInDown">Transform your food service vision into
                   reality with our expert consultancy services. We provide
                   comprehensive guidance and support, ensuring a seamless transition from concept to a remarkable
                   culinary space. 
                 </h4>
-                <!-- <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
-                <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a> -->
+                <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
+                <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
               </div>
             </div>
           </div>
@@ -42,6 +41,7 @@ import Startup from '@/components/layouts/Startup.vue'
             </div>
           </div>
 
+          
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -53,7 +53,6 @@ import Startup from '@/components/layouts/Startup.vue'
         </button>
       </div>
     </div>
-    <!-- Navbar & Carousel End -->
   </Startup>
 </template>
 

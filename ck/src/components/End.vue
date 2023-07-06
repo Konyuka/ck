@@ -165,6 +165,7 @@ import Beone from '@/components/layouts/Beone.vue'
             </div>
         </div>
         <!-- End Carousel Area -->
+
         <!-- Start Brands Area -->
         <div class="brand-area gray-bg pt-70 pb-70">
             <div class="container">
@@ -210,18 +211,18 @@ import Beone from '@/components/layouts/Beone.vue'
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html">Be-One </a>
+                                <a href="index.html">Commercial Kitchen Consultancy</a>
                             </div>
                             <div class="footer-dec">
-                                <p>Be-one is a clean PSD theme suitable for corporate, You can customize it very easy to fit
-                                    your needs, semper suscipit metus accumsan at. Nam luctus ac tortor eu</p>
+                                <p>
+                                    Looking to start your food service business? Take the first step by contacting us today.
+                                    Fill in the form
+                                    below and let our expert team guide you towards achieving your dreams. Together,
+                                    we&#39;ll bring your
+                                    vision to life. Get started now!
+                                </p>
                             </div>
-                            <ul class="social-links">
-                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
+
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -230,11 +231,11 @@ import Beone from '@/components/layouts/Beone.vue'
                                 <h6>Features</h6>
                             </div>
                             <ul class="footer-menu">
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Services</a></li>
                                 <li><a href="#">Our Story</a></li>
-                                <li><a href="#">Terms &and; Condition</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Site Map</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -244,11 +245,17 @@ import Beone from '@/components/layouts/Beone.vue'
                                 <h6>Contact us</h6>
                             </div>
                             <div class="address-line">
-                                <p>Address: 379 5th Ave New York, NYC 10018, United States</p>
-                                <p>Phone: <a href="tel:+112345 6999">+(112) 345 6999</a></p>
-                                <p>Fax: +(112) 345 8999</p>
-                                <p>Email: <a href="mailto:contact@be-one.com">contact@be-one.com</a></p>
+                                <p> <i class="fas fa-map mr-2"></i> 30259-00100, Ngong Road, NRB</p>
+                                <p> <i class="fas fa-phone mr-2"></i> <a href="tel:+254717269050">+254 717 269 050</a></p>
+                                <p> <i class="fas fa-envelope mr-2"></i> <a
+                                        href="mailto:contact@be-one.com">info@conmmercialkitchen.co.ke</a></p>
                             </div>
+                            <ul class="pt-2 social-links">
+                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -275,8 +282,11 @@ import Beone from '@/components/layouts/Beone.vue'
                 <div class="row ">
                     <div class="col-12 text-center">
                         <div class="copyright-area ">
-                            <p>Copyright © 2021 Designed by <a href="https://www.wpfreecloud.com">wpfreecloud.com</a>. All
-                                rights reserved.</p>
+                            <p>
+                                Design by <a class="text-primary" href="mailto:michaelsaiba84@gmail.com">Michael Saiba</a> 
+                                <br> All rights reserved.
+                                <br>Copyright © 2023  
+                            </p>
                         </div>
                     </div>
                 </div>
