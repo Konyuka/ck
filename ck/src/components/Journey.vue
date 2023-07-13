@@ -7,14 +7,17 @@ import Startup from '@/components/layouts/Startup.vue'
     <Startup>
         <!-- Service Start -->
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                    <h5 class="fw-bold text-primary">This is how we can work together</h5>
-                    <h1 class="mb-0">Our Process</h1>
-                </div>
-                <div class="row g-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary">This is how we can work together</h5>
+                <h1 class="mb-0">Our Process</h1>
+            </div>
+            <div class="big-container py-5">
 
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="big-container row g-5">
+
+                    <div class="col-lg-1 col-md-6 center-directions">
+                    </div>
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>1</h1>
@@ -29,16 +32,14 @@ import Startup from '@/components/layouts/Startup.vue'
                                 needs. We also provide expert advice and guidance, sharing our industry knowledge and best
                                 practices
                                 to help you make informed decisions.
-                                <a class="btn btn-lg btn-primary rounded" href="">
-                                    <i class="bi bi-arrow-right"></i>
-                                </a>
+
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 center-directions">
+                    <div class=" col-lg-1 col-md-6 center-directions">
                         <i class="big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>2</h1>
@@ -59,12 +60,13 @@ import Startup from '@/components/layouts/Startup.vue'
                             </a>
                         </div>
                     </div>
-
-
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-1 col-md-6 center-directions">
+                        <i class="big-icons text-primary fa fa-caret-right"></i>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                            <h1>3</h1> 
+                            <h1>3</h1>
                             <h4 class="uppercase mb-3 text-primary">Equipment Selection</h4>
                             <p class="m-0 small-text">
                                 Choosing the right equipment is crucial for the success of your commercial kitchen. With our
@@ -82,10 +84,13 @@ import Startup from '@/components/layouts/Startup.vue'
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 center-directions">
-                        <i class="big-icons text-primary fa fa-caret-right"></i>
+
+
+
+                    <div class="col-lg-1 col-md-6 center-directions">
+                        <!-- <i class="big-icons text-primary fa fa-caret-right"></i> -->
                     </div>
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>4</h1>
@@ -106,11 +111,13 @@ import Startup from '@/components/layouts/Startup.vue'
                             </a>
                         </div>
                     </div>
-
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-1 col-md-6 center-directions">
+                        <i class="big-icons text-primary fa fa-caret-right"></i>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                            <h1>5</h1> 
+                            <h1>5</h1>
                             <h4 class="uppercase mb-3 text-primary">Project Management</h4>
                             <p class="m-0 small-text">
                                 We understand that overseeing a commercial kitchen project can be challenging, especially
@@ -130,10 +137,10 @@ import Startup from '@/components/layouts/Startup.vue'
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 center-directions">
+                    <div class="col-lg-1 col-md-6 center-directions">
                         <i class="big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>6</h1>
@@ -155,7 +162,10 @@ import Startup from '@/components/layouts/Startup.vue'
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-1 col-md-6 center-directions">
+                        <!-- <i class="big-icons text-primary fa fa-caret-right"></i> -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>7</h1>
@@ -173,10 +183,10 @@ import Startup from '@/components/layouts/Startup.vue'
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 center-directions">
+                    <div class="col-lg-1 col-md-6 center-directions">
                         <i class="big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
                             class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>8</h1>
@@ -213,6 +223,17 @@ import Startup from '@/components/layouts/Startup.vue'
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css');
 
+.big-container {
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+    /* width: 50%; */
+    width: 100%;
+    /* padding-right: 1px; */
+    /* padding-left: 1px; */
+}
+
+
 .small-text {
     font-size: 15px;
 }
@@ -229,5 +250,112 @@ import Startup from '@/components/layouts/Startup.vue'
 
 .big-icons {
     font-size: 80px;
+}
+
+
+
+
+
+.cardi :hover {
+    background: #FFCA1B;
+    /* animation: fadeContent 1s ease-in-out forwards; */
+}
+
+
+.product__disc--content {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    animation: fadeContent 1s ease-in-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+
+
+}
+
+/*
+  keyframes
+ */
+
+
+
+@keyframes showDisc {
+    0% {
+        width: 0px;
+        left: 450px;
+    }
+
+    100% {
+        width: 500px;
+        left: 450px;
+    }
+}
+
+@keyframes fadeContent {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeWish {
+    0% {
+        opacity: 0;
+        bottom: -25px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@keyframes fadeBuy {
+    0% {
+        opacity: 0;
+        bottom: -25px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+
+
+@keyframes top {
+    0% {
+        opacity: 0;
+        bottom: -80px
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0px
+    }
+}
+
+@keyframes icon {
+    0% {
+        opacity: 0;
+        transform: scale(0.0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.3) rotate(-02deg);
+
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
 }
 </style>
