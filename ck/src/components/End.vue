@@ -141,7 +141,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
 
@@ -195,15 +195,15 @@ import Beone from '@/components/layouts/Beone.vue'
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html">Commercial Kitchen Consultancy</a>
+                                <a href="index.html">About Us</a>
                             </div>
                             <div class="footer-dec">
                                 <p>
-                                    Looking to start your food service business? Take the first step by contacting us today.
-                                    Fill in the form
-                                    below and let our expert team guide you towards achieving your dreams. Together,
-                                    we&#39;ll bring your
-                                    vision to life. Get started now!
+                                    We are a team of passionate professionals who share a common vision: to revolutionize
+                                    the commercial
+                                    kitchen experience. Our journey began with a collective drive to address the challenges
+                                    faced by clients
+                                    when setting up their dream culinary spaces.
                                 </p>
                             </div>
 
@@ -229,7 +229,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                 <h6>Contact us</h6>
                             </div>
                             <div class="address-line">
-                                <p> <i class="fas fa-map mr-2"></i> 30259-00100, Ngong Road, NRB</p>
+                                <p> <i class="fas fa-map mr-2"></i> 30259-00100, Kindaruma Rd, Nairobi</p>
                                 <p> <i class="fas fa-phone mr-2"></i> <a href="tel:+254717269050">+254 717 269 050</a></p>
                                 <p> <i class="fas fa-envelope mr-2"></i> <a
                                         href="mailto:contact@be-one.com">info@conmmercialkitchen.co.ke</a></p>

@@ -7,7 +7,7 @@ import Footer from '../components/Footer.vue'
 <template>
   <main>
     <Navbar />
-    <div class="bg-svg p-2">
+    <div class=" p-2">
       <Contact />
     </div>
     <Footer />

@@ -10,7 +10,7 @@ import Beone from '@/components/layouts/Beone.vue'
         <footer class="footer-area pt-60 pb-60 black-bg" id="contact-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <!-- <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-logo">
                                 <a href="index.html">Commercial Kitchen Consultancy</a>
@@ -26,7 +26,7 @@ import Beone from '@/components/layouts/Beone.vue'
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <div class="widget-title">
@@ -47,7 +47,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                 <h6>Contact us</h6>
                             </div>
                             <div class="address-line">
-                                <p> <i class="fas fa-map mr-2"></i> 30259-00100, Ngong Road, NRB</p>
+                                <p> <i class="fas fa-map mr-2"></i> 30259-00100, Kindaruma Rd, Nairobi</p>
                                 <p> <i class="fas fa-phone mr-2"></i> <a href="tel:+254717269050">+254 717 269 050</a></p>
                                 <p> <i class="fas fa-envelope mr-2"></i> <a
                                         href="mailto:contact@be-one.com">info@conmmercialkitchen.co.ke</a></p>

@@ -1,171 +1,105 @@
 <script setup>
-
+import Startup from '@/components/layouts/Startup.vue'
 </script>
 
 <template>
-    <div class="m-3">
-        <div class="container">
-            <div class="contact__wrapper shadow-lg mt-n9">
-                <div class="row no-gutters">
-                    <div class="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
-                        <h4 class="mb-2">WE ARE HERE TO HELP!</h4>
-
-                        <div>
-                            <p>Looking to start your food service business? Take the first step by contacting us today. Fill
-                                in the form
-                                below and let our expert team guide you towards achieving your dreams. Together, we&#39;ll
-                                bring your
-                                vision to life. Get started now!</p>
-                        </div>
-
-                        <ul class="contact-info__list list-style--none position-relative z-index-101">
-                            <li class="mb-4 pl-4">
-                                <span class="position-absolute"><i class="fas fa-envelope"></i></span>
-                                info@conmmercialkitchen.co.ke
-                            </li>
-                            <li class="mb-4 pl-4">
-                                <span class="position-absolute"><i class="fas fa-phone"></i></span> +254 717 269 050
-                            </li>
-                            <li class="mb-4 pl-4">
-                                <span class="position-absolute"><i class="fas fa-map-marker-alt"></i></span>
-                                30259-00100, Ngong Road, NRB
-
-                                <div class="mt-3">
-                                    <a href="https://www.google.com/maps" target="_blank"
-                                        class="text-link link--right-icon text-white">Get directions <i
-                                            class="link__icon fa fa-directions"></i></a>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <figure class="figure position-absolute m-0 opacity-06 z-index-100" style="bottom:0; right: 10px">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444px"
-                                height="626px">
-                                <defs>
-                                    <linearGradient id="PSgrad_1" x1="0%" x2="81.915%" y1="57.358%" y2="0%">
-                                        <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"></stop>
-                                        <stop offset="100%" stop-color="rgb(0,54,207)" stop-opacity="0"></stop>
-                                    </linearGradient>
-
-                                </defs>
-                                <path fill-rule="evenodd" opacity="0.302" fill="rgb(0, 0, 0)"
-                                    d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z">
-                                </path>
-                                <path fill="rgb(0, 0, 0)"
-                                    d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z">
-                                </path>
-                            </svg>
-                        </figure>
+    <Startup>
+        <div>
+            <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s"
+                style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="container py-5">
+                    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                        <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
+                        <h1 class="mb-0">Get in touch, we are here to help</h1>
                     </div>
-
-                    <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
-                        <form action="#" class="contact-form form-validate" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-sm-6 mb-3">
-                                    <div class="form-group">
-                                        <label class="required-field" for="firstName">First Name</label>
-                                        <input type="text" class="form-control" id="firstName" name="firstName"
-                                            placeholder="Wendy">
-                                    </div>
+                    <div class="row g-5 mb-5">
+                        <p class="mb-4 text-center">
+                            Looking to start your food service business? Take the first step by contacting us today. Fill in
+                            the form
+                            below and let our expert team guide you towards achieving your dreams. Together, we'll bring
+                            your
+                            vision to life. Get started now!
+                        </p>
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s"
+                                style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                                <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-phone-alt text-white"></i>
                                 </div>
-
-                                <div class="col-sm-6 mb-3">
-                                    <div class="form-group">
-                                        <label for="lastName">Last Name</label>
-                                        <input type="text" class="form-control" id="lastName" name="lastName"
-                                            placeholder="Kimani">
-                                    </div>
+                                <div class="ps-4">
+                                    <h5 class="mb-2">Call to ask any question</h5>
+                                    <h4 class="text-primary mb-0">+254717269050</h4>
                                 </div>
-
-                                <div class="col-sm-6 mb-3">
-                                    <div class="form-group">
-                                        <label class="required-field" for="email">Email</label>
-                                        <input type="text" class="form-control" id="email" name="email"
-                                            placeholder="wendy.kimani@seed.com">
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6 mb-3">
-                                    <div class="form-group">
-                                        <label for="phone">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone"
-                                            placeholder="+254 716 202 299">
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-12 mb-3">
-                                    <div class="form-group">
-                                        <label class="required-field" for="message">How can we help?</label>
-                                        <textarea class="form-control" id="message" name="message" rows="4"
-                                            placeholder="Hi there, I would like to....."></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-12 mb-3">
-                                    <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-                                </div>
-
                             </div>
-                        </form>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s"
+                                style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+                                <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-envelope-open text-white"></i>
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="mb-2">Email to get free quote</h5>
+                                    <h4 class="text-primary mb-0"> info@conmmercialkitchen.co.ke</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s"
+                                style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">
+                                <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-map-marker-alt text-white"></i>
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="mb-2">Visit our office</h5>
+                                    <h4 class="text-primary mb-0">Kindaruma Rd, Nairobi</h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- End Contact Form Wrapper -->
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s"
+                            style="visibility: visible; animation-delay: 0.3s; animation-name: slideInUp;">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control border-0 bg-light px-4"
+                                            placeholder="Your Name" style="height: 55px;">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control border-0 bg-light px-4"
+                                            placeholder="Your Email" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject"
+                                            style="height: 55px;">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control border-0 bg-light px-4 py-3" rows="4"
+                                            placeholder="Message" data-gramm="false" wt-ignore-input="true"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Inquire</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s"
+                            style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
+                            <iframe class="position-relative rounded w-100 h-100"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.17629266973!2d36.7867053!3d-1.2982931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109ec56d4431%3A0xdee2bf2039412201!2sCommodore%20Office%20Suites!5e0!3m2!1sen!2ske!4v1689358466855!5m2!1sen!2ske"
+                                frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+                                tabindex="0"></iframe>
 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </Startup>
 </template>
 
-<style scoped>
-.gradient-brand-color {
-    background-image: -webkit-linear-gradient(0deg, #f97316 0%, #cb651c 100%);
-    background-image: -ms-linear-gradient(0deg, #f97316 0%, #cb6f2d 100%);
-    color: #fff;
-}
-
-.contact-info__wrapper {
-    overflow: hidden;
-    border-radius: .625rem .625rem 0 0
-}
-
-@media (min-width: 1024px) {
-    .contact-info__wrapper {
-        border-radius: 0 .625rem .625rem 0;
-        padding: 5rem !important
-    }
-}
-
-.contact-info__list span.position-absolute {
-    left: 0
-}
-
-.z-index-101 {
-    z-index: 101;
-}
-
-.list-style--none {
-    list-style: none;
-}
-
-.contact__wrapper {
-    background-color: #fff;
-    border-radius: 0 0 .625rem .625rem
-}
-
-@media (min-width: 1024px) {
-    .contact__wrapper {
-        border-radius: .625rem 0 .625rem .625rem
-    }
-}
-
-@media (min-width: 1024px) {
-    .contact-form__wrapper {
-        padding: 5rem !important
-    }
-}
-
-.shadow-lg,
-.shadow-lg--on-hover:hover {
-    box-shadow: 0 1rem 3rem rgba(138, 122, 105, 0.1) !important;
-}
-</style>
+<style scoped></style>
