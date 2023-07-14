@@ -1,5 +1,7 @@
 <script setup>
 import Megakit from '@/components/layouts/Megakit.vue'
+import { RouterLink } from 'vue-router'
+
 
 </script>
 
@@ -55,7 +57,7 @@ import Megakit from '@/components/layouts/Megakit.vue'
                     <div class="collapse navbar-collapse text-center" id="navbarsExample09">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                <RouterLink class="nav-link" to="/">Home</RouterLink>
                             </li>
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
@@ -65,7 +67,7 @@ import Megakit from '@/components/layouts/Megakit.vue'
                                     <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
                                 </ul>
                             </li> -->
-                            <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                            <li class="nav-item"><RouterLink class="nav-link" to="/services">Services</RouterLink></li>
                             <li class="nav-item"><a class="nav-link" href="project.html">Our Story</a></li>
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown"
@@ -81,7 +83,7 @@ import Megakit from '@/components/layouts/Megakit.vue'
                         </ul>
 
                         <form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
-                            <a href="contact.html" class="button btn btn-solid-border btn-round-full">Get in Touch</a>
+                            <RouterLink to="/contacts" class="button btn btn-solid-border btn-round-full">Get in Touch</RouterLink>
                         </form>
                     </div>
                 </div>

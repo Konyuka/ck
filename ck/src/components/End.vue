@@ -11,7 +11,7 @@ import Beone from '@/components/layouts/Beone.vue'
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="section-title">
+                        <div class="section-titles">
                             <h4>Latest blog Posts</h4>
                         </div>
                         <div class="blog-carousel owl-carousel">
@@ -31,7 +31,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                             <a href="#">Development</a>,
                                             <a href="#">Maketing</a>
                                         </div>
-                                        <a href="#" class="btn btn-inline read-more-btn"><i
+                                        <a href="#" style="color: #f97316" class="btn btn-inline read-more-btn"><i
                                                 class="fas fa-plus-square"></i>Read More</a>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                             <a href="#">Development</a>,
                                             <a href="#">Maketing</a>
                                         </div>
-                                        <a href="#" class="btn btn-inline read-more-btn"><i
+                                        <a href="#" style="color: #f97316" class="btn btn-inline read-more-btn"><i
                                                 class="fas fa-plus-square"></i>Read More</a>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                             <a href="#">Development</a>,
                                             <a href="#">Maketing</a>
                                         </div>
-                                        <a href="#" class="btn btn-inline read-more-btn"><i
+                                        <a href="#" style="color: #f97316" class="btn btn-inline read-more-btn"><i
                                                 class="fas fa-plus-square"></i>Read More</a>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                             <a href="#">Development</a>,
                                             <a href="#">Maketing</a>
                                         </div>
-                                        <a href="#" class="btn btn-inline read-more-btn"><i
+                                        <a href="#" style="color: #f97316" class="btn btn-inline read-more-btn"><i
                                                 class="fas fa-plus-square"></i>Read More</a>
                                     </div>
                                 </div>
@@ -103,24 +103,24 @@ import Beone from '@/components/layouts/Beone.vue'
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="section-title">
+                        <div class="section-titles">
                             <h4>Testimonials</h4>
                         </div>
                         <div class="testimonial-carousel owl-carousel">
                             <div class="single-testimonial-item ">
                                 <div class="testimonial-content d-flex">
                                     <i class="fas fa-quote-left"></i>
-                                    <p> Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum
-                                        lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in
-                                        faucibus. Etiam tincidunt odio dolor</p>
+                                    <p> Working with the company has been an absolute pleasure. Their expertise in
+                                        commercial kitchen equipment is unmatched, and they truly go above and beyond to
+                                        meet our unique needs.</p>
                                 </div>
                                 <div class="author-details d-flex">
                                     <div class="author-img">
                                         <img src="@/assets/beone/assets/img/user_01.png" alt="">
                                     </div>
                                     <div class="author-content">
-                                        <a href="#">Michael Green</a>
-                                        <span>Product Manager</span>
+                                        <a href="#" style="color: #f97316">Michael Green</a>
+                                        <span style="color: black">Product Manager</span>
                                     </div>
                                 </div>
                             </div>
@@ -136,28 +136,12 @@ import Beone from '@/components/layouts/Beone.vue'
                                         <img src="@/assets/beone/assets/img/user_02.png" alt="">
                                     </div>
                                     <div class="author-content">
-                                        <a href="#">Michael Green</a>
-                                        <span>Product Manager</span>
+                                        <a href="#" style="color: #f97316">Michael Green</a>
+                                        <span style="color: black">Product Manager</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="single-testimonial-item ">
-                                <div class="testimonial-content d-flex">
-                                    <i class="fas fa-quote-left"></i>
-                                    <p> Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum
-                                        lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in
-                                        faucibus. Etiam tincidunt odio dolor</p>
-                                </div>
-                                <div class="author-details d-flex">
-                                    <div class="author-img">
-                                        <img src="@/assets/beone/assets/img/user_03.png" alt="">
-                                    </div>
-                                    <div class="author-content">
-                                        <a href="#">Michael Green</a>
-                                        <span>Product Manager</span>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -283,9 +267,9 @@ import Beone from '@/components/layouts/Beone.vue'
                     <div class="col-12 text-center">
                         <div class="copyright-area ">
                             <p>
-                                Design by <a class="text-primary" href="mailto:michaelsaiba84@gmail.com">Michael Saiba</a> 
+                                Design by <a class="text-primary" href="mailto:michaelsaiba84@gmail.com">Michael Saiba</a>
                                 <br> All rights reserved.
-                                <br>Copyright © 2023  
+                                <br>Copyright © 2023
                             </p>
                         </div>
                     </div>
@@ -297,4 +281,15 @@ import Beone from '@/components/layouts/Beone.vue'
     </Beone>
 </template>
 
-<style scoped></style>
+<style scoped>
+.section-titles h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    color: #f97316
+}
+</style>

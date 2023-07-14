@@ -19,7 +19,7 @@ import Startup from '@/components/layouts/Startup.vue'
                     </div>
                     <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>1</h1>
                             <h4 class="uppercase mb-3 text-primary">Initial Consultation</h4>
                             <p class="m-0 small-text">
@@ -37,11 +37,11 @@ import Startup from '@/components/layouts/Startup.vue'
                         </div>
                     </div>
                     <div class=" col-lg-1 col-md-6 center-directions">
-                        <i class="big-icons text-primary fa fa-caret-right"></i>
+                        <i class="wiggle-anim big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>2</h1>
                             <h4 class="uppercase mb-3 text-primary">Design and Layout</h4>
                             <p class="m-0 small-text">
@@ -55,17 +55,15 @@ import Startup from '@/components/layouts/Startup.vue'
                                 efficiency of your
                                 kitchen space.
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-6 center-directions">
-                        <i class="big-icons text-primary fa fa-caret-right"></i>
+                        <i class="wiggle-anim big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>3</h1>
                             <h4 class="uppercase mb-3 text-primary">Equipment Selection</h4>
                             <p class="m-0 small-text">
@@ -79,9 +77,7 @@ import Startup from '@/components/layouts/Startup.vue'
                                 equipment that
                                 aligns with your business goals.
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
+                            
                         </div>
                     </div>
 
@@ -90,9 +86,9 @@ import Startup from '@/components/layouts/Startup.vue'
                     <div class="col-lg-1 col-md-6 center-directions">
                         <!-- <i class="big-icons text-primary fa fa-caret-right"></i> -->
                     </div>
-                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>4</h1>
                             <h4 class="uppercase mb-3 text-primary">Supplier Procurement</h4>
                             <p class="m-0 small-text">
@@ -106,17 +102,15 @@ import Startup from '@/components/layouts/Startup.vue'
                                 pricing,
                                 handling order placement, and coordinating logistics for timely delivery of the equipment.
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-6 center-directions">
-                        <i class="big-icons text-primary fa fa-caret-right"></i>
+                        <i class="wiggle-anim big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>5</h1>
                             <h4 class="uppercase mb-3 text-primary">Project Management</h4>
                             <p class="m-0 small-text">
@@ -132,17 +126,15 @@ import Startup from '@/components/layouts/Startup.vue'
                                 handle
                                 the complexities of the project.
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-6 center-directions">
-                        <i class="big-icons text-primary fa fa-caret-right"></i>
+                        <i class="wiggle-anim big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>6</h1>
                             <h4 class="uppercase mb-3 text-primary">Installation and Testing</h4>
                             <p class="m-0 small-text">
@@ -156,18 +148,16 @@ import Startup from '@/components/layouts/Startup.vue'
                                 conducted to
                                 ensure that each piece of equipment operates seamlessly and meets your requirements.
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
+                            
                         </div>
                     </div>
 
                     <div class="col-lg-1 col-md-6 center-directions">
                         <!-- <i class="big-icons text-primary fa fa-caret-right"></i> -->
                     </div>
-                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>7</h1>
                             <h4 class="uppercase mb-3 text-primary">Handover and Documentation</h4>
                             <p class="m-0 small-text">
@@ -178,23 +168,19 @@ import Startup from '@/components/layouts/Startup.vue'
                                 maintain your
                                 commercial kitchen effectively.
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-6 center-directions">
-                        <i class="big-icons text-primary fa fa-caret-right"></i>
+                        <i class="wiggle-anim big-icons text-primary fa fa-caret-right"></i>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="cardi col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            class="m-2 card-height service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                             <h1>8</h1>
                             <h4 class="uppercase mb-3 text-primary">Maintenance & Support</h4>
                             <p class="m-0 small-text">
-                                We understand the importance of ensuring that your commercial kitchen is well-maintained for
-                                optimal
-                                performance and longevity. We work closely with the awarded suppliers to ensure that they
+                                We work closely with the awarded suppliers to ensure that they
                                 offer
                                 comprehensive after-sales support and maintenance services. We help facilitate the process
                                 of signing
@@ -206,9 +192,7 @@ import Startup from '@/components/layouts/Startup.vue'
                                 provide
                                 support and assist in coordinating with the supplier to address them promptly.
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
+                            
                         </div>
                     </div>
 
@@ -222,6 +206,28 @@ import Startup from '@/components/layouts/Startup.vue'
 <style scoped>
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css');
+
+.wiggle-anim {
+  animation: wiggle 3s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+   0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 .big-container {
     display: flex;
@@ -253,11 +259,9 @@ import Startup from '@/components/layouts/Startup.vue'
 }
 
 
-
-
-
-.cardi :hover {
-    background: #FFCA1B;
+.cardi:hover {
+    background: #f97316 none repeat scroll 0 0;
+    transition: all 1s ease 0.1s;
     /* animation: fadeContent 1s ease-in-out forwards; */
 }
 
