@@ -19,7 +19,17 @@ const routes = [
     path: '/contacts',
     name: 'contacts',
     component: () => import('../views/ContactView.vue')
-  }
+  },
+  {
+    path: '/media',
+    name: 'media',
+    component: () => import('../views/MediaView.vue')
+  },
+  {
+    path: '/blog/:slug/:id',
+    name: 'details',
+    component: () => import('../views/ContentView.vue')
+  },
 ]
 
 export const createRouter = () =>

@@ -59,31 +59,20 @@ import { RouterLink } from 'vue-router'
                             <li class="nav-item active">
                                 <RouterLink class="nav-link" to="/">Home</RouterLink>
                             </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">About</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                                    <li><a class="dropdown-item" href="about.html">Our company</a></li>
-                                    <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="nav-item"><RouterLink class="nav-link" to="/services">Services</RouterLink></li>
-                            <li class="nav-item"><a class="nav-link" href="project.html">Our Story</a></li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                                    <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-                                    <li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
 
-                                    <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Media</a></li>
+                            <li class="nav-item">
+                                <RouterLink class="nav-link" to="/services">Services</RouterLink>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="project.html">Our Story</a></li>
+
+                            <li class="nav-item">
+                                <RouterLink class="nav-link" to="/media">Media</RouterLink>
+                            </li>
                         </ul>
 
                         <form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
-                            <RouterLink to="/contacts" class="button btn btn-solid-border btn-round-full">Get in Touch</RouterLink>
+                            <RouterLink to="/contacts" class="button btn btn-solid-border btn-round-full">Get in Touch
+                            </RouterLink>
                         </form>
                     </div>
                 </div>
@@ -105,6 +94,7 @@ import { RouterLink } from 'vue-router'
 .button:hover {
     background-color: #f97316;
 }
+
 .contact-hover:hover {
     color: #f97316;
 }
@@ -112,5 +102,4 @@ import { RouterLink } from 'vue-router'
 .media-icon {
     height: 25px;
     width: 25px;
-}
-</style>
+}</style>
