@@ -110,34 +110,115 @@ import Beone from '@/components/layouts/Beone.vue'
                             <div class="single-testimonial-item ">
                                 <div class="testimonial-content d-flex">
                                     <i class="fas fa-quote-left"></i>
-                                    <p> Working with the company has been an absolute pleasure. Their expertise in
-                                        commercial kitchen equipment is unmatched, and they truly go above and beyond to
-                                        meet our unique needs.</p>
+                                    <p>
+                                        I had the pleasure of working with Commercial Kitchens Consultants on our restaurant
+                                        project, and I
+                                        couldn&#39;t be more impressed. Despite my frequent travels in and out of the
+                                        country, they managed the
+                                        project seamlessly. From kitchen design to equipment selection, their expertise and
+                                        attention to detail
+                                        were exceptional. Thanks to their dedication and professionalism, Golden Stool now
+                                        has a functional
+                                        and kitchen that perfectly complements our menu
+                                    </p>
                                 </div>
                                 <div class="author-details d-flex">
                                     <div class="author-img">
-                                        <img src="@/assets/beone/assets/img/user_01.png" alt="">
+                                        <img src="https://goldenstoolkitchen.com/wp-content/uploads/2022/01/golden-logo.svg" alt="">
                                     </div>
                                     <div class="author-content">
-                                        <a href="#" style="color: #f97316">Michael Green</a>
-                                        <span style="color: black">Product Manager</span>
+                                        <a href="#" style="color: #f97316">Martin Yeboha</a>
+                                        <span style="color: black">Golden Stool Restaurant</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="single-testimonial-item ">
                                 <div class="testimonial-content d-flex">
                                     <i class="fas fa-quote-left"></i>
-                                    <p> Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum
-                                        lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in
-                                        faucibus. Etiam tincidunt odio dolor</p>
+                                    <p>
+                                        This being our first restaurant we had no knowledge of the process and what we
+                                        needed for the
+                                        kitchen set up. The team at CKC were very helpful and they provided guidance
+                                        throughout the process.
+                                        They understood our budget constraints and they were able to match us up with
+                                        reliable suppliers and
+                                        we truly got value for our money. Would highly recommend them.
+                                    </p>
                                 </div>
                                 <div class="author-details d-flex">
                                     <div class="author-img">
-                                        <img src="@/assets/beone/assets/img/user_02.png" alt="">
+                                        <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/qekxwuihiwpua1rhmxzw" alt="">
                                     </div>
                                     <div class="author-content">
-                                        <a href="#" style="color: #f97316">Michael Green</a>
-                                        <span style="color: black">Product Manager</span>
+                                        <a href="#" style="color: #f97316">Mukhtar</a>
+                                        <span style="color: black">Saffron Grill</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial-item ">
+                                <div class="testimonial-content d-flex">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>
+                                        We had strict timelines to upgrade our cafe&#39;s kitchen. The team displayed
+                                        excellent project
+                                        management skills and attention to detail. They listened to our requirements and
+                                        provided valuable
+                                        recommendations. Thanks to their expertise, our kitchen is now more efficient and
+                                        functional. I would
+                                        highly recommend their services.&quot;
+                                    </p>
+                                </div>
+                                <div class="author-details d-flex">
+                                    <div class="author-img">
+                                        <img src="@/assets/app/db.jpg" alt="">
+                                    </div>
+                                    <div class="author-content">
+                                        <a href="#" style="color: #f97316">Gideon</a>
+                                        <span style="color: black">Dohn Café</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial-item ">
+                                <div class="testimonial-content d-flex">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>
+                                        I can confidently recommend Commercial Kitchens Consultants for their
+                                        excellent service. Throughout
+                                        the process, they provided valuable guidance and support. Despite my busy schedule,
+                                        they managed the
+                                        project effectively, ensuring we got a kitchen that meets our needs. Their expertise
+                                        and transparency
+                                        was highly appreciated.
+                                    </p>
+                                </div>
+                                <div class="author-details d-flex">
+                                    <div class="author-img">
+                                        <img src="https://media.istockphoto.com/id/1415397771/vector/teapot-logo-teahouse-logo-design.jpg?s=612x612&w=0&k=20&c=eOa2TDw60gIS3x-pfZM0Wnli048xnproGh1Ic-Xfzhg=" alt="">
+                                    </div>
+                                    <div class="author-content">
+                                        <a href="#" style="color: #f97316">Tinega</a>
+                                        <span style="color: black">Fahari Tea Restaurant</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial-item ">
+                                <div class="testimonial-content d-flex">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>
+                                        I am truly grateful for the assistance provided by Commercial Kitchens Consultants
+                                        during the setup of
+                                        Acacia Residence. We had some challenges at the beginning considering the restaurant
+                                        was in Turkana,
+                                        but once we engaged them, we were able to complete the project in time.
+                                    </p>
+                                </div>
+                                <div class="author-details d-flex">
+                                    <div class="author-img">
+                                        <img src="@/assets/app/ac.jpg" alt="">
+                                    </div>
+                                    <div class="author-content">
+                                        <a href="#" style="color: #f97316">Ayan</a>
+                                        <span style="color: black">Acacia Residence</span>
                                     </div>
                                 </div>
                             </div>
@@ -291,5 +372,4 @@ import Beone from '@/components/layouts/Beone.vue'
     padding-bottom: 10px;
     margin-bottom: 70px;
     color: #f97316
-}
-</style>
+}</style>

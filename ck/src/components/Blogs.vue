@@ -16,7 +16,7 @@ const truncateExcerpt = (str, numWords) => {
 }
 
 onMounted(() => {
-  const blogsURL = 'http://localhost:8002/api/posts'
+  const blogsURL = 'http://localhost:8001/api/posts'
   axios.get(
     blogsURL
   )

@@ -42,10 +42,11 @@ import { RouterLink } from 'vue-router'
                     </div>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg  py-4" id="navbar">
+            <nav class="navbar navbar-expand-lg" id="navbar">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
-                        Commercial Kitchen<span> Consultancy.</span>
+                        <!-- Commercial Kitchen<span> Consultancy.</span> -->
+                            <img class="logo-size" src="@/assets/app/logo.jpg" alt="">
                     </a>
 
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -83,6 +84,10 @@ import { RouterLink } from 'vue-router'
 </template>
 
 <style lang="css" scoped>
+.logo-size {
+  height: 180px;
+  width: 380px;
+}
 .icon-color {
     color: #f97316;
 }
@@ -102,4 +107,5 @@ import { RouterLink } from 'vue-router'
 .media-icon {
     height: 25px;
     width: 25px;
-}</style>
+}
+</style>
