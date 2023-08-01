@@ -85,8 +85,8 @@ import { RouterLink } from 'vue-router'
 
 <style lang="css" scoped>
 .logo-size {
-  height: 180px;
-  width: 380px;
+  height: 70px;
+  width: 300px;
 }
 .icon-color {
     color: #f97316;
