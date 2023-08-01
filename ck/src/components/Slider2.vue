@@ -14,7 +14,6 @@ import Beone from '@/components/layouts/Beone.vue'
                             <div class="single-slider slider-bg-1 text-center">
                                 <div class="slider-inner">
                                     <h3 class="h3-font-size">From Concept to Completion
-                                        <!-- - We Guide You Every Step of the Way -->
                                     </h3>
                                     ><h5 class="h5-font-size">Transform your food service vision into reality with our
                                         expert
