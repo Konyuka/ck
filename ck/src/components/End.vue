@@ -59,7 +59,7 @@ import Beone from '@/components/layouts/Beone.vue'
                             </div>
                             <div class="single-blog-item">
                                 <div class="single-blog-img">
-                                    <img src="assets/img/blog_03.jpg" alt="">
+                                    <img src="@/assets/beone/assets/img/blog_03.jpg" alt="">
                                     <span>October 25, 2017</span>
                                 </div>
                                 <div class="blog-content">
