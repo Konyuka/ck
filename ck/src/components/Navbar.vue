@@ -44,7 +44,7 @@ import { RouterLink } from 'vue-router'
             </div>
             <nav class="navbar navbar-expand-lg" id="navbar">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/">
                         <!-- Commercial Kitchen<span> Consultancy.</span> -->
                             <img class="logo-size" src="@/assets/app/logo.jpg" alt="">
                     </a>
@@ -58,13 +58,17 @@ import { RouterLink } from 'vue-router'
                     <div class="collapse navbar-collapse text-center" id="navbarsExample09">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <RouterLink class="nav-link" to="/">Home</RouterLink>
+                                <a class="nav-link" href="/">Home</a>
+                                <!-- <RouterLink class="nav-link" to="/">Home</RouterLink> -->
                             </li>
 
                             <li class="nav-item">
                                 <RouterLink class="nav-link" to="/services">Services</RouterLink>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="project.html">Our Story</a></li>
+
+                            <li class="nav-item">
+                                <RouterLink class="nav-link" to="/about">Our Story</RouterLink>
+                            </li>
 
                             <li class="nav-item">
                                 <RouterLink class="nav-link" to="/media">Media</RouterLink>

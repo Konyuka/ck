@@ -9,7 +9,7 @@ import Footer from '../components/Footer.vue'
     <Navbar />
     <div class=" p-2">
       <Contact />
-    </div>
+    </div> 
     <Footer />
   </main>
 </template>
