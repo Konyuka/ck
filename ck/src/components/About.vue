@@ -67,7 +67,7 @@ import Startup from '@/components/layouts/Startup.vue'
 
                             <br> <br>
 
-                            Welcome to Commercial Kitchens Consultants, where we elevate culinary spaces, together.&quot;
+                            Welcome to Commercial Kitchens Consultants, where we elevate culinary spaces, together.
                         </p>
 
                         <!-- <div class="row g-0 mb-3 pt-5">
@@ -80,29 +80,37 @@ import Startup from '@/components/layouts/Startup.vue'
                                 <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
                             </div>
                         </div> -->
-                        <div class="mt-5 d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-phone-alt text-white"></i>
+                        <div class="d-flex gap-5">
+                            <div class="d-flex gap-5">
+                                <div class="mt-5 d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                                    <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                        style="width: 60px; height: 60px;">
+                                        <i class="fa fa-phone-alt text-white"></i>
+                                    </div>
+                                    <div class="ps-4">
+                                        <h5 class="mb-2">Get expert advice</h5>
+                                        <h4 class="text-primary mb-0">+012 345 6789</h4>
+                                    </div>
+                                </div>
+                                <div class="mt-5 d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                                    <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                        style="width: 60px; height: 60px;">
+                                        <i class="fa fa-paper-plane text-white"></i>
+                                    </div>
+                                    <div class="ps-4">
+                                        <h5 class="mb-2">Write to us</h5>
+                                        <h4 class="text-primary mb-0">info@commercialkitchen.co.ke</h4>
+                                    </div>
+                                </div>
+    
                             </div>
-                            <div class="ps-4">
-                                <h5 class="mb-2">Get expert advice</h5>
-                                <h4 class="text-primary mb-0">+012 345 6789</h4>
+                            <div class="ml-5">
+                                <RouterLink to="./contacts" class="mt-5 btn btn-primary py-4 px-5 mt-3 wow zoomIn"
+                                    data-wow-delay="0.9s">
+                                    Enquire
+                                </RouterLink>
                             </div>
                         </div>
-                        <div class="mt-5 d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-paper-plane text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="mb-2">Write to us</h5>
-                                <h4 class="text-primary mb-0">info@commercialkitchen.co.ke</h4>
-                            </div>
-                        </div>
-                        <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">
-                            Download Company Profile
-                        </a>
                     </div>
 
                     <!-- <div class="col-lg-5" style="min-height: 500px;">

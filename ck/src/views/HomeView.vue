@@ -17,7 +17,7 @@ import End from '../components/End.vue'
     <About />
     <Whyus />
     <Journey />
-    <Clients />
+    <!-- <Clients /> -->
     <End />
   </main>
 </template>

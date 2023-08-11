@@ -9,13 +9,13 @@ import Beone from '@/components/layouts/Beone.vue'
         <div class="slider-area ">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
-                    <div class="col-12">
+                    <div class="col-12"> 
                         <div class="slider-carousel owl-carousel">
                             <div class="single-slider slider-bg-1 text-center">
                                 <div class="slider-inner">
                                     <h3 class="h3-font-size">From Concept to Completion
                                     </h3>
-                                    ><h5 class="h5-font-size">Transform your food service vision into reality with our
+                                    <h5 class="h5-font-size">Transform your food service vision into reality with our
                                         expert
                                         consultancy
                                         services. We provide
@@ -50,7 +50,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                     <a class="button btn get-started-btn" href="#">Learn More</a>
                                 </div>
                             </div>
-                            <div class="single-slider slider-bg-3 text-center">
+                            <div class="single-slider slider-bg-4 text-center">
                                 <div class="slider-inner">
                                     <h3 class="h3-font-size">Supplier Qualification</h3>
                                     <h5 class="h5-font-size">
@@ -60,7 +60,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                     <a class="button btn get-started-btn" href="#">Learn More</a>
                                 </div>
                             </div>
-                            <div class="single-slider slider-bg-3 text-center">
+                            <div class="single-slider slider-bg-5 text-center">
                                 <div class="slider-inner">
                                     <h3 class="h3-font-size">Procurement &amp; Project Management</h3>
                                     <h5 class="h5-font-size">
