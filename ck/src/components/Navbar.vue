@@ -32,10 +32,10 @@ import { RouterLink } from 'vue-router'
                         <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
                             <div class="header-top-info">
                                 <a href="tel:+25471769050">
-                                    <span class="contact-hover">+254 717 269 050</span>
+                                    <span class="contact-hover"><i class="fas fa-phone text-primary mr-2"></i> +254 717 269 050</span>
                                 </a>
                                 <a href="mailto:lynnkimeto55@gmail.com">
-                                    <span class="contact-hover">info@commercialkitchen.co.ke</span>
+                                    <span class="contact-hover"><i class="fas fa-paper-plane text-primary mr-2"></i> info@commercialkitchen.co.ke</span>
                                 </a>
                             </div>
                         </div>
@@ -58,20 +58,20 @@ import { RouterLink } from 'vue-router'
                     <div class="collapse navbar-collapse text-center" id="navbarsExample09">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">Home</a>
+                                <a class="nav-link" href="/" style="font-weight: 600;">Home</a>
                                 <!-- <RouterLink class="nav-link" to="/">Home</RouterLink> -->
                             </li>
 
                             <li class="nav-item">
-                                <RouterLink class="nav-link" to="/services">Services</RouterLink>
+                                <RouterLink class="nav-link" to="/services" style="font-weight: 600;">Services</RouterLink>
                             </li>
 
                             <li class="nav-item">
-                                <RouterLink class="nav-link" to="/about">Our Story</RouterLink>
+                                <RouterLink class="nav-link" to="/about" style="font-weight: 600;">Our Story</RouterLink>
                             </li>
 
                             <li class="nav-item">
-                                <RouterLink class="nav-link" to="/media">Media</RouterLink>
+                                <RouterLink class="nav-link" to="/media" style="font-weight: 600;">Media</RouterLink>
                             </li>
                         </ul>
 

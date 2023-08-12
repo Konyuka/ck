@@ -15,8 +15,8 @@
                                 <i class="fa fa-comment-dots"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Initial Consultation</h5>
-                                <p>
+                                <h4 class="text-primary">Initial Consultation</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     Picture this: you, us, and a cup of coffee. During our initial consultation, we dive
                                     deep into your dreams,
                                     your vision, and even your secret recipe aspirations. We listen, we learn, and together,
@@ -25,6 +25,8 @@
                                     confidantes, ready to
                                     guide you every step of the way
                                 </p>
+
+                                <!-- <p style="font-weight: 600;" class="mt-2 text-primary">Read More <i class="fas fa-caret-right"></i></p> -->
                             </div>
                         </div>
                     </div>
@@ -36,8 +38,8 @@
                                 <i class="fa fa-ruler-combined"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Design and Layout</h5>
-                                <p>
+                                <h4 class="text-primary">Design and Layout</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     Based on the brief gotten during the initial consultation, our experienced designers
                                     will work closely
                                     with you to create a customized kitchen design. We consider factors such as workflow
@@ -59,8 +61,8 @@
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Equipment Selection</h5>
-                                <p>
+                                <h4 class="text-primary">Equipment Selection</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     Once we have agreed on the kitchen layout, we proceed to equipment selection. Choosing
                                     the right
                                     equipment is crucial for the success of your commercial kitchen. With our deep knowledge
@@ -82,8 +84,8 @@
                                 <i class="fa fa-users"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Supplier Procurement:</h5>
-                                <p>
+                                <h4 class="text-primary">Supplier Procurement</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     Navigating the multitude of suppliers can be overwhelming. As part of our comprehensive
                                     service, we
                                     shall handle the supplier qualification process for you. We will thoroughly evaluate and
@@ -106,8 +108,8 @@
                                 <i class="fa fa-tasks"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Project Management:</h5>
-                                <p>
+                                <h4 class="text-primary">Project Management</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     We understand that overseeing a commercial kitchen project can be challenging,
                                     especially when
                                     coordinating multiple stakeholders. As your dedicated project managers, we take on the
@@ -132,8 +134,8 @@
                                 <i class="fa fa-cog"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Installation and Testing</h5>
-                                <p>
+                                <h4 class="text-primary">Installation and Testing</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     Efficient and accurate installation of equipment is vital to the functionality and
                                     safety of your
                                     commercial kitchen. Our team of experts will work closely with the selected suppliers
@@ -155,8 +157,8 @@
                                 <i class="fa fa-book-open"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Handover and Documentation</h5>
-                                <p>
+                                <h4 class="text-primary">Handover and Documentation</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     Once the installation is complete, we facilitate a comprehensive handover process. We
                                     ensure that you
                                     are provided with all relevant documentation, including warranties, operating manuals,
@@ -176,8 +178,8 @@
                                 <i class="fa fa-wrench"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Maintenance Contracts</h5>
-                                <p>
+                                <h4 class="text-primary">Maintenance Contracts</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     Our relationship doesn't end with the completion of your kitchen. We're
                                     committed to your ongoing
                                     success We work closely with the awarded suppliers to ensure that they offer
@@ -201,8 +203,8 @@
                                 <i class="fa fa-medal"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Customer Satisfaction and Success</h5>
-                                <p>
+                                <h4 class="text-primary">Customer Satisfaction and Success</h4>
+                                <p style="color: black; font-weight: 600; font-size: 13px;">
                                     We measure our success by your satisfaction. After completing the installation and
                                     ensuring everything is in perfect working order, we take a moment to celebrate your
                                     kitchen triumph. Your delight and happiness are our greatest rewards. We make sure
@@ -307,9 +309,10 @@
     top: -5px;
 }
 
-.feature-box-1:hover h5 {
-    color: #ffffff;
+.feature-box-1:hover h4 {
+    color: #ffffff !important;
 }
+
 
 .feature-box-1:hover p {
     color: black;

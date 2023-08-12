@@ -10,21 +10,24 @@ import Beone from '@/components/layouts/Beone.vue'
         <div class="carousel-area pt-80 pb-80" id="blog">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <div class="section-titles">
                             <h4>Latest blog Posts</h4>
                         </div>
                         <div class="blog-carousel owl-carousel">
                             <div class="single-blog-item">
                                 <div class="single-blog-img">
-                                    <img src="@/assets/beone/assets/img/blog_01.jpg" alt="">
-                                    <span>October 25, 2017</span>
+                                    <img src="https://www.mericanltd.com/wp-content/uploads/2023/02/IMG_6146-scaled-1-2560x1280.jpg"
+                                        alt="">
+                                    <span>June 25, 2023</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="post-heading"><a href="#">10 Tips for a Business Strong Start</a> </h5>
-                                    <p class="post-content-text">Donec sit amet neque lectus. Ut vitae turpis justo. Nullam
-                                        a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra
-                                        orci.</p>
+                                    <h5 class="post-heading"><a href="#">5 Types of Commercial Kitchen Refrigeration for
+                                            your Storage</a> </h5>
+                                    <p class="post-content-text">If you have been running your chain of restaurants and
+                                        hotels (or if you&#8217;re a first timer) , you must know the vitality of having
+                                        fresh foods on the table for your customers...
+                                    </p>
                                     <div class="blog-btn">
                                         <div class="blog-tags">
                                             <i class="fas fa-tags"></i>
@@ -100,7 +103,7 @@ import Beone from '@/components/layouts/Beone.vue'
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-lg-6">
                         <div class="section-titles">
@@ -124,7 +127,8 @@ import Beone from '@/components/layouts/Beone.vue'
                                 </div>
                                 <div class="author-details d-flex">
                                     <div class="author-img">
-                                        <img src="https://goldenstoolkitchen.com/wp-content/uploads/2022/01/golden-logo.svg" alt="">
+                                        <img src="https://goldenstoolkitchen.com/wp-content/uploads/2022/01/golden-logo.svg"
+                                            alt="">
                                     </div>
                                     <div class="author-content">
                                         <a href="#" style="color: #f97316">Martin Yeboha</a>
@@ -147,7 +151,8 @@ import Beone from '@/components/layouts/Beone.vue'
                                 </div>
                                 <div class="author-details d-flex">
                                     <div class="author-img">
-                                        <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/qekxwuihiwpua1rhmxzw" alt="">
+                                        <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/qekxwuihiwpua1rhmxzw"
+                                            alt="">
                                     </div>
                                     <div class="author-content">
                                         <a href="#" style="color: #f97316">Mukhtar</a>
@@ -193,7 +198,8 @@ import Beone from '@/components/layouts/Beone.vue'
                                 </div>
                                 <div class="author-details d-flex">
                                     <div class="author-img">
-                                        <img src="https://media.istockphoto.com/id/1415397771/vector/teapot-logo-teahouse-logo-design.jpg?s=612x612&w=0&k=20&c=eOa2TDw60gIS3x-pfZM0Wnli048xnproGh1Ic-Xfzhg=" alt="">
+                                        <img src="https://media.istockphoto.com/id/1415397771/vector/teapot-logo-teahouse-logo-design.jpg?s=612x612&w=0&k=20&c=eOa2TDw60gIS3x-pfZM0Wnli048xnproGh1Ic-Xfzhg="
+                                            alt="">
                                     </div>
                                     <div class="author-content">
                                         <a href="#" style="color: #f97316">Tinega</a>
@@ -224,6 +230,11 @@ import Beone from '@/components/layouts/Beone.vue'
                             </div>
 
                         </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img style="height: 400px;" src="https://www.mericanltd.com/wp-content/uploads/2022/12/IMG_7205-scaled-1-2560x1280.jpg"
+                            alt="">
                     </div>
 
                 </div>
@@ -372,4 +383,5 @@ import Beone from '@/components/layouts/Beone.vue'
     padding-bottom: 10px;
     margin-bottom: 70px;
     color: #f97316
-}</style>
+}
+</style>

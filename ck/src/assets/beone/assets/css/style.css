@@ -318,7 +318,7 @@ input:focus {
 .owl-carousel .owl-dots button {
   width: 10px;
   height: 10px;
-  background: #666666;
+  background: #fff;
   display: inline-block;
   margin: 5px;
   border-radius: 50%;
@@ -533,35 +533,35 @@ input:focus {
 /* Start Slider Area
 ==================================================*/
 .slider-bg-1 {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/concept.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .slider-bg-2 {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/design.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .slider-bg-3 {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/equipment.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .slider-bg-4 {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/supplier.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .slider-bg-5 {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/procur.jpg);
   background-size: cover;
   background-position: center;

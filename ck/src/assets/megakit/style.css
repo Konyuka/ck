@@ -562,9 +562,9 @@ ul.dropdown-menu li {
   content: "";
   left: 0px;
   top: 0px;
-  width: 45%;
-  min-height: 650px;
-  background: url("https://themewagon.github.io/megakit-2/images/about/home-8.jpg") no-repeat;
+  width: 50%;
+  min-height: 750px;
+  background: url("./img/why.jpg") no-repeat;
   background-size: cover;
 }
 

@@ -43,4 +43,7 @@ export const createRouter = () =>
       ? createMemoryHistory("/")
       : createWebHistory("/"),
     routes,
+    scrollBehavior() {
+      return { top: 0, behavior: 'smooth' };
+    },
   });

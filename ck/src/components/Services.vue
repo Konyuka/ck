@@ -16,14 +16,14 @@
                 </div>
                 <div class="row">
                     <!-- feaure box -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-box-1">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="card-min-height feature-box-1">
                             <div class="icon">
                                 <i class="fa fa-ruler-combined"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Kitchen Design &amp; Layout Concepts</h5>
-                                <p>Our expertise in kitchen design and layout allows us to create innovative and efficient
+                                <h4 class="text-primary">Kitchen Design &amp; Layout Concepts</h4>
+                                <p style="color: black; font-weight: 600; font-size: 16px;">Our expertise in kitchen design and layout allows us to create innovative and efficient
                                     spaces tailored to
                                     your specific needs. We utilize the latest design concepts, considering factors such as
                                     workflow
@@ -40,14 +40,14 @@
                     </div>
                     <!-- / -->
                     <!-- feaure box -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-box-1">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="card-min-height feature-box-1">
                             <div class="icon">
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Equipment Selection</h5>
-                                <p>
+                                <h4 class="text-primary">Equipment Selection</h4>
+                                <p style="color: black; font-weight: 600; font-size: 16px;">
                                     Selecting the right equipment is critical for the success of your commercial kitchen.
                                     Our in-depth
                                     knowledge of the industry and strong supplier partnerships enable us to recommend the
@@ -65,14 +65,14 @@
                     </div>
                     <!-- / -->
                     <!-- feaure box -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-box-1">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="card-min-height feature-box-1">
                             <div class="icon">
                                 <i class="fa fa-users"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Supplier Qualification</h5>
-                                <p>
+                                <h4 class="text-primary">Supplier Qualification</h4>
+                                <p style="color: black; font-weight: 600; font-size: 16px;">
                                     Navigating the numerous equipment suppliers in the market can be overwhelming. Our
                                     supplier
                                     qualification process streamlines the selection and ensures you partner with reputable
@@ -90,14 +90,14 @@
                     </div>
                     <!-- / -->
                     <!-- feaure box -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-box-1">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="card-min-height feature-box-1">
                             <div class="icon">
                                 <i class="fa fa-truck"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Procurement:</h5>
-                                <p>
+                                <h4 class="text-primary">Procurement:</h4>
+                                <p style="color: black; font-weight: 600; font-size: 16px;">
                                     Our team manages the procurement process from start to finish, ensuring a smooth and
                                     hassle-free
                                     experience for you. We leverage our industry connections and negotiate competitive
@@ -114,14 +114,14 @@
                     </div>
                     <!-- / -->
                     <!-- feaure box -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-box-1">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="card-min-height feature-box-1">
                             <div class="icon">
                                 <i class="fa fa-list"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Project Management:</h5>
-                                <p>
+                                <h4 class="text-primary">Project Management:</h4>
+                                <p style="color: black; font-weight: 600; font-size: 16px;">
                                     We understand that managing a commercial kitchen project requires coordination among
                                     various
                                     stakeholders. As your dedicated project managers, we oversee the entire process, from
@@ -139,14 +139,14 @@
                     </div>
                     <!-- / -->
                     <!-- feaure box -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature-box-1">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="card-min-height feature-box-1">
                             <div class="icon">
                                 <i class="fa fa-plane"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Import Advisory</h5>
-                                <p>
+                                <h4 class="text-primary">Import Advisory</h4>
+                                <p style="color: black; font-weight: 600; font-size: 16px;">
                                     Our Import Advisory service is designed to provide professional guidance and support for
                                     individuals
                                     who prefer to personally import their equipment. By leveraging our vast network and
@@ -166,6 +166,10 @@
 </template>
 
 <style scoped>
+.card-min-height {
+    min-height: 450px;
+}
+
 .section-titles h4 {
     font-size: 20px;
     text-transform: uppercase;
@@ -247,8 +251,8 @@
     top: -5px;
 }
 
-.feature-box-1:hover h5 {
-    color: #ffffff;
+.feature-box-1:hover h4 {
+    color: #ffffff !important;
 }
 
 .feature-box-1:hover p {

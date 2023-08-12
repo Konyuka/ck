@@ -13,15 +13,15 @@ import Startup from '@/components/layouts/Startup.vue'
                             <!-- <h5 class="fw-bold text-primary text-uppercase">Commercial</h5> -->
                             <h1 class="mb-0">Who we are</h1>
                         </div>
-                        <p class="mb-4" style="color: black;">
+                        <p class="mb-4" style="color: black; font-weight: 600;">
                             <i class="fas fa-dot"></i> We are a team of passionate professionals who share a common vision:
-                            to revolutionize the
+                            to revolutionize the 
                             commercial
                             kitchen experience. Our journey began with a collective drive to address the challenges faced by
                             clients
                             when setting up their dream culinary spaces.
 
-                            <br> <br>
+                   
 
                             Drawing from our diverse backgrounds in the hospitality industry, we recognized that many
                             clients,
@@ -38,35 +38,10 @@ import Startup from '@/components/layouts/Startup.vue'
                             should endure the frustration of unmet timelines or fall prey to suppliers who prioritize their
                             own
                             interests.
-
-                            <br> <br>
-
-                            Our team is committed to providing expert guidance and support throughout every step of the
-                            process.
-                            From designing innovative kitchen layouts to selecting the perfect equipment from trusted
-                            suppliers, we
-                            leverage our industry expertise and rigorous supplier qualification process to ensure that our
-                            clients
-                            make informed decisions that align with their needs and budgets.
-
-                            <br> <br>
-
-                            With a meticulous approach to procurement and project management, we orchestrate the entire
-                            process, sparing our clients the stress of constant supervision. Our goal is to deliver on time
-                            and exceed
-                            expectations, leaving our clients with a kitchen that is fully functional, aesthetically
-                            pleasing, and
-                            optimized for productivity.
-
-                            <br> <br>
-
                             Join us on this exciting journey as we redefine culinary spaces and elevate the dining
                             experience for your
                             guests. Together, let&#39;s create exceptional culinary spaces that inspire, captivate, and
                             drive success.
-
-                            <br> <br>
-
                             Welcome to Commercial Kitchens Consultants, where we elevate culinary spaces, together.
                         </p>
 
@@ -80,8 +55,8 @@ import Startup from '@/components/layouts/Startup.vue'
                                 <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
                             </div>
                         </div> -->
-                        <div class="d-flex gap-5">
-                            <div class="d-flex gap-5">
+                        <div class="d-flex gap-5 " style="justify-content: space-between;">
+                            <div class="d-flex gap-5" style="justify-content: space-between;">
                                 <div class="mt-5 d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
                                     <div class="bg-primary d-flex align-items-center justify-content-center rounded"
                                         style="width: 60px; height: 60px;">

@@ -21,7 +21,7 @@ import Megakit from '@/components/layouts/Megakit.vue'
                             </h2>
                             <div class="about-content">
                                 <h4 class="mb-3 position-relative text-primary">We are a team that Cares!</h4>
-                                <p class="mb-5">
+                                <p class="mb-5" style="color: black; font-weight: 600;">
                                     Navigating the complexities of setting up a commercial kitchen
                                     can be a
                                     daunting task. With countless decisions to make, from design and equipment selection to
